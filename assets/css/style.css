@@ -4,18 +4,33 @@
     border:none;
 }
 
+body{
+    font-family:oswald;
+    background-color: black;
+    color:#D7C49EFF;
+}
+
+
 
 /* Header styling */
 #logo{
     float: left;
     line-height:60px;
     padding-left:20px;
+    font-size:300%;
+}
+
+#slogan{
+  font-size:100%;
+  display: block;
+    
 }
 
 #menu {
     float:right;
     list-style-type: none;
     line-height:60px;
+    padding-right:20px;
     
     
 }
@@ -28,12 +43,25 @@
 
 ul a{
     text-decoration: none;
+    color:#D7C49EFF;
+    font-size:150%;
 }
 
+ul #green-bottom-border:hover{
+    border-bottom:2px solid rgb(12, 214, 12);
+}
+
+ul #purple-bottom-border:hover{
+    border-bottom:2px solid rgb(234, 2, 255);
+}
+
+ul #blue-bottom-border:hover{
+    border-bottom:2px solid rgb(9, 226, 255);
+}
 
 /* hero image styling */
 
-#hero-outer{
+#hero-section{
     height: 700px;
     width:100%;
     overflow:hidden;
@@ -46,3 +74,8 @@ ul a{
     width:100%;
  
 }
+
+#about-heading{
+    font-size:200%;
+}
+
