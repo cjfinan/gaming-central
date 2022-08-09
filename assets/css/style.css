@@ -4,6 +4,8 @@
     border:none;
 }
 
+
+/* Header styling */
 #logo{
     float: left;
     line-height:60px;
@@ -22,5 +24,18 @@
     text-decoration: none;
     display:inline-block;
     padding-right: 20px;
+}
+
+ul a{
+    text-decoration: none;
+}
+
+
+/* hero image styling */
+
+#hero-image{
+    background: url(../css/images/hero-image.jpeg) no-repeat center center;
+    height:800px;
+    width:100%;
 
 }
