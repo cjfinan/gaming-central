@@ -98,8 +98,8 @@ ul #blue-bottom-border:hover{
 
 #about-heading{
     border-bottom:2px solid rgb(12, 214, 12) ;
-    width:20%;
-    text-align: center;
+    width:33%;
+    text-align: right;
     float:left;
     font-size:200%;
 
@@ -129,3 +129,20 @@ ul #blue-bottom-border:hover{
     font-size:200%;
 
 }
+
+#events-table{
+display: inline-block;
+margin: 50px 60px 50px 60px;
+text-align:center;
+width:40%;
+}
+
+th, td, tr {
+    border-color: #96D4D4;
+    border-bottom:1px solid #96D4D4;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
