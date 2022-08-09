@@ -1,3 +1,26 @@
-h1{
-    color:red;
+*{
+    margin:0;
+    padding:0;
+    border:none;
+}
+
+#logo{
+    float: left;
+    line-height:60px;
+    padding-left:20px;
+}
+
+#menu {
+    float:right;
+    list-style-type: none;
+    line-height:60px;
+    
+    
+}
+
+#menu li {
+    text-decoration: none;
+    display:inline-block;
+    padding-right: 20px;
+
 }
