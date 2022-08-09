@@ -33,9 +33,16 @@ ul a{
 
 /* hero image styling */
 
-#hero-image{
-    background: url(../css/images/hero-image.jpeg) no-repeat center center;
-    height:800px;
+#hero-outer{
+    height: 700px;
     width:100%;
+    overflow:hidden;
+}
 
+#hero-image{
+    background: url(../css/images/hero-image1.jpg) no-repeat center center;
+    background-size: cover;
+    height:700px;
+    width:100%;
+ 
 }
