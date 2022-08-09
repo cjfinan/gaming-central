@@ -72,10 +72,33 @@ ul #blue-bottom-border:hover{
     background-size: cover;
     height:700px;
     width:100%;
+  
  
 }
 
 #about-heading{
     font-size:200%;
+}
+
+
+/* about styling */
+ 
+#about{
+    background: url(../css/images/about.jpg) no-repeat center center;
+    background-size: cover;
+    height: 600px;
+    width: 50%;
+    float:right;
+    overflow:hidden;
+    margin-top:100px
+    
+}
+
+#about-heading{
+    border-bottom:2px solid rgb(12, 214, 12) ;
+    width:20%;
+    text-align: center;
+    float:left;
+    margin-top:100px;
 }
 
