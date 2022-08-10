@@ -248,18 +248,17 @@ th, td, tr {
 }
 
 #join-button{
-   background-color: #ffffff;
-   color:rgb(9, 226, 255);
+   background-color: #000000;
+   color:rgb(255, 255, 255);
    height:50px;
    width:100%;
    font-size:150%;
-   border-bottom: 5px solid;
+   border: 1px solid white;
 
 }
 
 #join-button:hover{
-    background-color:rgb(9, 226, 255) ;
-    color:#ffffff;
+    border-color:rgb(9, 226, 255) ;
 }
 
 
