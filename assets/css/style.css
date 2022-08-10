@@ -96,7 +96,7 @@ ul #blue-bottom-border:hover{
 #about-div-right{
     background: url(../css/images/about.jpg) no-repeat center center;
     background-size: cover;
-    height: 600px;
+    height: 100%;
     width: 50%;
     float:right;
     overflow:hidden;
@@ -107,6 +107,7 @@ ul #blue-bottom-border:hover{
 #about-div-left{
     float:left;
     width: 50%;
+    height: 100%;
 }
 
 
@@ -120,6 +121,18 @@ ul #blue-bottom-border:hover{
   
 
 }
+
+#about-div-box{
+    background-color: slategray;
+    height: 66%;
+    width: 66%;
+    margin-left:20%;
+    margin-top: 5%;
+    opacity: 0.1;
+
+    
+}
+    
 
 /* Events Styling */
 
