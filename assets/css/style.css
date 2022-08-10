@@ -50,9 +50,6 @@ div #slogan{
     line-height:60px;
     padding-right:20px;
     font-weight: 500;
-  
-    
-    
 }
 
 #menu li {
@@ -146,6 +143,13 @@ ul #blue-bottom-border:hover{
 
 #about-div-box #events-table{
     font-weight: 400;
+}
+
+#about-icon-upper{
+    font-size: 150%;
+    text-align: center;
+    width: 100%;
+    padding:5px;
 }
     
 
