@@ -258,3 +258,36 @@ th, td, tr {
     background-color:rgb(9, 226, 255) ;
     color:#ffffff;
 }
+
+
+
+/* Footer Styling */
+
+#footer-div{
+    width: 100%;
+    height:150px
+}
+
+#footer-header{
+    text-align: center;
+    font-size: 100%;
+    margin-top: 10px;
+}
+
+.footer-icons{
+ text-align: center;
+
+}
+
+.footer-icons li{
+    display: inline;
+    text-align: center;
+    
+    width: 100%;
+}
+
+.footer-icons i{
+    font-size: 150%;
+    padding: 50px 100px 50px 100px;
+
+}
