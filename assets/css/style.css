@@ -7,7 +7,7 @@
 body{
     font-family:oswald;
     background-color: black;
-    color:#D7C49EFF;
+    color:#fff;
 }
 
 
@@ -52,7 +52,7 @@ div #slogan{
 
 ul a{
     text-decoration: none;
-    color:#D7C49EFF;
+    color:#fFF;
     font-size:150%;
 }
 
@@ -93,7 +93,7 @@ ul #blue-bottom-border:hover{
     margin: 50px 0 50px 0;
 }
  
-#about-div{
+#about-div-right{
     background: url(../css/images/about.jpg) no-repeat center center;
     background-size: cover;
     height: 600px;
@@ -101,17 +101,23 @@ ul #blue-bottom-border:hover{
     float:right;
     overflow:hidden;
     border-radius: 50%;
-   
-    
     
 }
 
+#about-div-left{
+    float:left;
+    width: 50%;
+}
+
+
+
 #about-heading{
     border-bottom:2px solid rgb(12, 214, 12) ;
-    width:33%;
+    width:66%;
     text-align: right;
-    float:left;
+    float:none;
     font-size:200%;
+  
 
 }
 
