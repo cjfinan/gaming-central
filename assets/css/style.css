@@ -192,8 +192,13 @@ th, td, tr {
 
 }
 
+#form-p{
+    text-align: center;
+    padding-bottom: 30px;
+
+}
 #join-form{
-    height:400px;
+    height:500px;
     max-width: 600px;
     text-align: left;
     position: absolute;
