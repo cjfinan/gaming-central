@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+
+
+
 *{
     margin:0;
     padding:0;
@@ -5,11 +9,15 @@
 }
 
 body{
-    font-family:oswald;
+    font-family: 'Raleway', sans-serif;
+
     background-color: black;
     color:#fff;
 }
 
+h2{
+    font-weight: 600;
+}
 
 
 /* Header styling */
@@ -22,6 +30,7 @@ body{
 
 #slogan{
   font-size:100%;
+  font-weight: 300;
 
     
 }
@@ -40,6 +49,8 @@ div #slogan{
     list-style-type: none;
     line-height:60px;
     padding-right:20px;
+    font-weight: 500;
+  
     
     
 }
@@ -131,6 +142,10 @@ ul #blue-bottom-border:hover{
 
 #about-div-box p{
    font-size: 150%;
+}
+
+#about-div-box #events-table{
+    font-weight: 400;
 }
     
 
