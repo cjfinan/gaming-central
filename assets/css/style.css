@@ -10,7 +10,6 @@
 
 body{
     font-family: 'Raleway', sans-serif;
-
     background-color: black;
     color:#fff;
 }
@@ -400,7 +399,7 @@ th, td, tr {
     clear:left;
     width: 50%;
     text-align: right;
-    padding: 0, 0, 0, 100px;
+    padding: 0 0 0 100px;
     margin-top: 20px;
 }
 
@@ -456,5 +455,65 @@ th, td, tr {
 
     #join-form{
         margin: 5% 5% 10% 5%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #logo{
+        float: left;
+        margin: 0;
+
+    }
+
+    #menu{
+        margin: 0;
+        padding-left: 20px;
+        font-size: 90%;
+    }
+
+    div #slogan{
+        display: none;
+    }
+
+    #about-div-left{
+        font-size: 80%;
+        height: 550px;
+    }
+
+    #about-div-right{
+        margin: 0 0 0 20px;
+    }
+
+    #events-section{
+        margin: 0;
+    }
+
+    #events-heading{
+        font-size: 180%;
+    }
+
+    #events-table{
+        font-size: 100%;
+        padding: 0%;
+        margin: 20px 0 0 0;
+        float: left;
+    }
+
+    #join-form{
+        margin: 0;
+        float: left;
+        width: 100%;
+    }
+
+    #join-div{
+        width: 100%;
+        background-position: center;
+    }
+
+    #footer-icons a{
+
+        font-size: 10%;
+        width: 25%;
+    
     }
 }
