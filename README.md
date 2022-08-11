@@ -58,4 +58,3 @@ __Validation Testing__
 
 - No errors were returned when passing it through the official [W3C validator](https://validator.w3.org/#validate_by_input)
 - No errors were returned when passing it through the official [W3C CSS Validation](https://jigsaw.w3.org/css-validator/)
-
