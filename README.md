@@ -4,7 +4,7 @@ Welcome to Gamers Central! This is the place for all your gaming community needs
 
 ![Responsive Design](../gaming-central/assets/css/images/gamers-responsive.png)
 
-### Features
+## Features
 
 __Navigation Bar__
 
@@ -12,8 +12,6 @@ __Navigation Bar__
 
 - Navigation bar for all consumers needs, fully responsive with interactive features taking you to different sections throughout the page.
 If you want to find out, more about gamers central, upcoming events and how to get involved its all there with corrosponding section colours so you know youre in the right place.
-
-- In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 __Hero Image__
 
@@ -49,4 +47,15 @@ __Footer__
 - This encourages the user to stay connected
 
 ![Footer](../gaming-central/assets/css/images/footer.png)
+
+## Testing
+
+__Validation Testing__
+
+- Testing was carried out using Chrome, Microsoft edge and firefox
+- Developer tools where used to check the sites responsiveness for a range of different potential screen sizes
+- All links and forms were tested to make sure they opened in a new tab with no return
+
+- No errors were returned when passing it through the official [W3C validator](https://validator.w3.org/#validate_by_input)
+- No errors were returned when passing it through the official [W3C CSS Validation](https://jigsaw.w3.org/css-validator/)
 
