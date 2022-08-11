@@ -360,8 +360,6 @@ th, td, tr {
 
 
 @media screen and (max-width: 850px){
-    
-    
     #about-section{
         margin: 0;
     }
@@ -486,6 +484,7 @@ th, td, tr {
 
     #events-section{
         margin: 0;
+        height: 500px;
     }
 
     #events-heading{
@@ -493,7 +492,7 @@ th, td, tr {
     }
 
     #events-table{
-        font-size: 100%;
+        font-size: 70%;
         padding: 0%;
         margin: 20px 0 0 0;
         float: left;
@@ -502,7 +501,7 @@ th, td, tr {
     #join-form{
         margin: 0;
         float: left;
-        width: 100%;
+        width: 90%;
     }
 
     #join-div{
@@ -510,10 +509,11 @@ th, td, tr {
         background-position: center;
     }
 
-    #footer-icons a{
-
-        font-size: 10%;
-        width: 25%;
-    
+    .footer-icons a{
+        font-size: 100%;
+        padding: 25px 10px 25px 10px;
+        width: 50px;
     }
+
+   
 }
