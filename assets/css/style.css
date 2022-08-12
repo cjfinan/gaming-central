@@ -86,7 +86,7 @@ ul #blue-bottom-border:hover{
 }
 
 #hero-image{
-    background: url(../css/images/hero-image1.jpg) no-repeat center center;
+    background: url(../css/images/hero-image1-compressed.jpg) no-repeat center center;
     background-size: cover;
     height:700px;
     width:100%;
@@ -101,7 +101,7 @@ ul #blue-bottom-border:hover{
 }
  
 #about-div-right{
-    background: url(../css/images/join-us.jpg) no-repeat center center;
+    background: url(../css/images/join-us-compressed.jpg) no-repeat center center;
     background-size: cover;
     height: 100%;
     width: 50%;
@@ -203,7 +203,7 @@ th, td, tr {
 /* Join us styling */
 
 #join-div{
-    background: url(../css/images/about.jpg) no-repeat center center;
+    background: url(../css/images/about-compressed.jpg) no-repeat center center;
     background-size: cover;
     height: 800px;
     width: 100%;

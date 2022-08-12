@@ -52,9 +52,74 @@ __Footer__
 
 __Validation Testing__
 
-- Testing was carried out using Chrome, Microsoft edge and firefox
 - Developer tools where used to check the sites responsiveness for a range of different potential screen sizes
 - All links and forms were tested to make sure they opened in a new tab with no return
 
 - No errors were returned when passing it through the official [W3C validator](https://validator.w3.org/#validate_by_input)
 - No errors were returned when passing it through the official [W3C CSS Validation](https://jigsaw.w3.org/css-validator/)
+
+__Lighthouse__ 
+
+- Lighthouse was used through chrome dev tools to analyse for the following 
+ - Performace
+ - Acessibility
+ - Best practice
+ - SEO
+
+ This was done for desktop 
+
+
+ ![Lighthouse](./assets/css/images/lighthouse.png)
+
+ __Further Testing__
+
+ Testing was carried out using Chrome, Microsoft edge and firefox
+
+ Responsiveness was test through google chromes dev tools on a number of devices that include;
+  - Iphone 12 Pro
+  - Iphone SE
+  - Ipad
+  - Ipad Air
+  - Ipad Mini
+  - Pixel 5
+  - Galaxy S8+
+  - Surface Duo
+
+  ## Deployment
+
+  The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+  You can view the live site here : 
+
+  ## Techonologies Used
+
+  HTML5
+  CSS3
+  Balsamiq
+
+  ## Issues / Bugs
+
+  1) Using absolute paths for images or file paths.
+      - GitPod uses relative paths rather than absolute
+
+  2) Typos
+     - When prood reading through the website typos were corrected
+
+  3) Getting the slogan to apear underneath the logo
+     - I intialy struggled to get the slogan to apear undearneath the logo but got around it by wrapping the slogan in a div so it was easier to position
+
+## Unresolved
+
+Improvement of performance - even with compressed versions of my images they are still making the site a little slower to load. Lighthouse recomends saving image files in webP aswell as using the correct size images.
+
+## Credits
+
+ ### Content
+  - The icons within the wbesite were taken from [Font Awesome](https://fontawesome.com/)
+  - [w3schools](https://www.w3schools.com/) was used to refresh my memory on the 'display' rule
+
+ ### Media
+ - All media were taken from [Pexels](https://www.pexels.com/)
