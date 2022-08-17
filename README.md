@@ -92,7 +92,7 @@ __Lighthouse__
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-  You can view the live site here : 
+  You can view the live site here : [Gamers Central](https://cjfinan.github.io/gaming-central/)
 
   ## Techonologies Used
 
